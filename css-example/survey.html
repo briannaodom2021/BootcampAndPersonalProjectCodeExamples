@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+</head>
+<body>
+
+<link rel="stylesheet" href="css/survey.css" /> <!--external css ex.-->
+
+<!-- <style> 
+  h1 {
+    text-align: center;
+  }
+
+  .survey-form {
+    width: 80%;
+    margin: auto;
+  }
+
+  #submit-btn { 
+    background: green;
+    color: white;
+  } 
+</style> --> <!-- one way of adding style to the sheet: internal stylesheet-->
+<!--h1 above is css for element, .survey-form dot is for class. add class to form below, and # is for id attribute we added to submit button-->
+<h1> Survey </h1>
+
+<form class= "survey-form" action="https://us-central1-nucamp-production.cloudfunctions.net/post/formdata" method="post">
+  <fieldset>
+    <div>
+      <label>Your Information:</label>
+    </div>
+    </br>
+    <div>
+      <label for="firstName"> First Name: </label>
+      <input type="text" id="firstName" name="firstName" placeholder="Your First Name" /> <!-- label for & id name need to match to make it so u can click first name to select box" -->
+    </div>
+    </br>
+    <div>
+      <label for="lastName"> Last Name: </label>
+      <input type="text" id="lastName" name="lastName" placeholder="Your Last Name" />
+    </div>
+    </br>
+    <div>
+      <label for="email"> Email: </label>
+      <input type="email" id="email" name="email" placeholder="Your Email Address" />
+    </div> </br>
+  </fieldset>
+    </br>
+  <fieldset>
+    <legend>Survery Questions:</legend>
+    <div>
+      Favorite Sport:
+      <input type="radio" name="sport" value="baseball" /> Baseball
+      <input type="radio" name="sport" value="rugby" /> Rugby
+      <input type="radio" name="sport" value="snowboarding" /> Snowboarding
+    </div>
+    </br>
+    <div>
+      Your Pets:
+      <input type="checkbox" name="pets" value="cat" /> Cat
+      <input type="checkbox" name="pets" value="dog" /> Dog
+      <input type="checkbox" name="pets" value="iguana" /> Iguana
+    </div>
+  </fieldset>
+    </br>
+  <input type="submit" id="submit-btn" />
+  <!--<input type="submit" value="Submit" style=" background: green; color: white; " --> <!-- Alternative way of doing style (inline styles); button background green, text is white -->
+</form>
+    
+</body>
+</html>
