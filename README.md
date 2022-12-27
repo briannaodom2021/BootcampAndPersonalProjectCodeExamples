@@ -34,5 +34,14 @@
 
 </div>
 
+<em>Week 2:</em>
+<a href="https://github.com/briannaodom2021/Bootcamp_CodeExamples/blob/main/css-example/survey.html"> Assignment 4 </a> was more css practice similar to assignment 3 but more options with checklists and radio buttons. 
+
+<h2>Result for Assignment 4:</h2>
+
+<img src= "https://github.com/briannaodom2021/Bootcamp_CodeExamples/blob/main/css-practice/images/assignment3.png"/> 
+
+</div>
+
 
 
