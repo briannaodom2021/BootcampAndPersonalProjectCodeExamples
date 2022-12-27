@@ -24,7 +24,8 @@
 <img src= "https://github.com/briannaodom2021/Bootcamp_CodeExamples/blob/main/example-folder/images/assignment2.png"/> 
 
 </div>
-
+    <br>
+<div>
 <em>Week 2:</em>
 <a href="https://github.com/briannaodom2021/Bootcamp_CodeExamples/blob/main/css-practice/css-practice.html"> Assignment 3 </a> css practice in class that had us set up menu items with a table that included prices, add a scale for a rating submit, include a field option for name, and list contact information with address and href tags.  
 
@@ -33,7 +34,8 @@
 <img src= "https://github.com/briannaodom2021/Bootcamp_CodeExamples/blob/main/css-practice/images/assignment3.png"/> 
 
 </div>
-
+    <br>
+<div>
 <em>Week 2:</em>
 <a href="https://github.com/briannaodom2021/Bootcamp_CodeExamples/blob/main/css-example/survey.html"> Assignment 4 </a> was more css practice similar to assignment 3 but more options with checklists and radio buttons. 
 
@@ -42,8 +44,8 @@
 <img src= "https://github.com/briannaodom2021/Bootcamp_CodeExamples/blob/main/css-example/images/assignment4.png"/> 
 
 </div>
-
-</div>
+    <br>
+<div>
 
 <em>Week 2:</em>
 <a href="https://github.com/briannaodom2021/Bootcamp_CodeExamples/blob/main/workshop2/datingform.html"> Assignment 5 </a> was our last css assignment that was setting up an extended dating form shown below.
