@@ -20,7 +20,7 @@
 
 <h2>Result for Assignment 2:</h2>
 
-<img src= "https://github.com/briannaodom2021/Bootcamp_CodeExamples/blob/main/profile/images/assignment1_profile.png"/> 
+<img src= "https://github.com/briannaodom2021/Bootcamp_CodeExamples/blob/main/example-folder/images/assignment2.png"/> 
 
 </div>
 
