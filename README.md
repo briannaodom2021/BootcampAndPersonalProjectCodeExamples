@@ -25,5 +25,14 @@
 
 </div>
 
+<em>Week 2:</em>
+<a href="https://github.com/briannaodom2021/Bootcamp_CodeExamples/blob/main/css-practice/css-practice.html"> Assignment 3 </a> css practice in class that had us set up menu items with a table that included prices, add a scale for a rating submit, include a field option for name, and list contact information with address and href tags.  
+
+<h2>Result for Assignment 3:</h2>
+
+<img src= "https://github.com/briannaodom2021/Bootcamp_CodeExamples/blob/main/example-folder/images/assignment2.png"/> 
+
+</div>
+
 
 
