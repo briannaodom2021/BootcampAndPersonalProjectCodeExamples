@@ -13,5 +13,16 @@
 <img src= "https://github.com/briannaodom2021/Bootcamp_CodeExamples/blob/main/profile/images/assignment1_profile.png"/> 
 
 </div>
+    <br>
+<div>
 
-<a href="https://github.com/briannaodom2021/Bootcamp_CodeExamples/blob/main/css-example/survey.html"> survey code </a>
+<a href="https://github.com/briannaodom2021/Bootcamp_CodeExamples/blob/main/example-folder/install-extension.html"> Assignment 2 </a> involved working with a navigation bar at the top of the page that allowed you to jump down the page to where you want depending on what menu item you clicked. It also had use make ordered and unordered lists, include a hyperlink and mini icon, and adding a video and full sized image to the page. Headers were important as well. 
+
+<h2>Result for Assignment 2:</h2>
+
+<img src= "https://github.com/briannaodom2021/Bootcamp_CodeExamples/blob/main/profile/images/assignment1_profile.png"/> 
+
+</div>
+
+
+
