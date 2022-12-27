@@ -3,9 +3,9 @@
 <div>
 <strong>Html, css, and javascript practice projects and end project for online bootcamp to display current skills for future jobs and/or internships in front end web development. </strong> 
 </div>
-
+    <br>
 <div>
-<u>Week 1:</u>
+<em>Week 1:</em>
 <a href="https://github.com/briannaodom2021/Bootcamp_CodeExamples/blob/main/profile/profile.html"> Assignment 1 </a>  was to put together an online portfolio that was a mini bio about us as people that included headers, unordered and ordered lists, music and image importation, basic styling, and use of hyperlinks.
 
 <h2>Result for Assignment 1:</h2>
