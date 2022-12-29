@@ -63,7 +63,10 @@ My code handled checking if user input was valid i.e. was actually a number for 
 
 <h2>Result for Assignment 6:</h2>
 
-<img src= "https://github.com/briannaodom2021/Bootcamp_CodeExamples/blob/main/workshop2/images/assignment5.png"/> 
+<video width="320" height="240" controls>
+  <source src="https://vimeo.com/manage/videos/785078742" type="video/mp4">
+  Your browser does not support this video.
+</video>
 
 </div>
 
