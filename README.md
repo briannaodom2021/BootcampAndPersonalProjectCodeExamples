@@ -65,9 +65,7 @@ My code handled checking if user input was valid i.e. was actually a number for 
 
 <h2>Result for Assignment 6:</h2>
 
-<video src="https://vimeo.com/785078742" width= "300" controls>
-  Your browser does not support this video. <a href="https://vimeo.com/785078742"> Watch video here</a>
-</video>
+<a href="https://vimeo.com/785078742"> Watch video here</a>
 </div>
 
 
