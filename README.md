@@ -63,12 +63,12 @@ My code handled checking if user input was valid i.e. was actually a number for 
 
 <h2>Result for Assignment 6:</h2>
 
-<video width="320" height="240" controls>
-  <source src="https://vimeo.com/manage/videos/785078742" type="video/mp4">
-  Your browser does not support this video.
-</video>
+<video style="padding:62.5% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/785078742?h=74d95b7376&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Magical-Mystery-Theater"></iframe>
 
-</div>
+
+<div style="padding:62.5% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/785078742?h=74d95b7376&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Magical-Mystery-Theater"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
+
 
 
 
