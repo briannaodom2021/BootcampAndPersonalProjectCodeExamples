@@ -65,7 +65,7 @@ My code handled checking if user input was valid i.e. was actually a number for 
 
 <h2>Result for Assignment 6:</h2>
 
-<img src= "https://github.com/briannaodom2021/Bootcamp_CodeExamples/blob/main/workshop2/images/assignment5.png"/> 
+<img src= "https://github.com/briannaodom2021/Bootcamp_CodeExamples/blob/main/js_projects/images/VimeoTheaterAssign6.png"/> 
 <a href="https://vimeo.com/785078742"> Watch video here</a>
 </div>
 
