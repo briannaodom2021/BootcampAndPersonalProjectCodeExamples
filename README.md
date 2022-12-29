@@ -55,6 +55,8 @@
 <img src= "https://github.com/briannaodom2021/Bootcamp_CodeExamples/blob/main/workshop2/images/assignment5.png"/> 
 
 </div>
+    <br>
+<div>
 
 <em>Week 3:</em>
 <a href="https://github.com/briannaodom2021/Bootcamp_CodeExamples/blob/main/helloworld_javascript/theater.html"> Assignment 6 </a> was javascript practice making a separate js folder. We took in user inputs for a fake movie showing in order to tell them what the price of their ticket would be. If they saw a matinee it would be $3 cheaper on their ticket. If they were ages 12 to 65 their tickets were orignally $20. Otherwise the person's ticket was $10. These prices are without the discount. 
@@ -63,10 +65,9 @@ My code handled checking if user input was valid i.e. was actually a number for 
 
 <h2>Result for Assignment 6:</h2>
 
-<video src="https://vimeo.com/785078742" controls>
+<video src="https://vimeo.com/785078742" width= "300" controls>
   Your browser does not support this video. <a href="https://vimeo.com/785078742"> Watch video here</a>
 </video>
-
 </div>
 
 
