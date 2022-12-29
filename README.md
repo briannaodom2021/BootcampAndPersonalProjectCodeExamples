@@ -63,7 +63,7 @@ My code handled checking if user input was valid i.e. was actually a number for 
 
 <h2>Result for Assignment 6:</h2>
 
-<video width="320" height="240" src="https://vimeo.com/785078742" type="video/mp4" controls>
+<video src="https://vimeo.com/785078742" controls>
   Your browser does not support this video.
 </video>
 
