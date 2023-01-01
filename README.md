@@ -59,7 +59,7 @@
 <div>
 
 <em>Week 3:</em>
-<a href="https://github.com/briannaodom2021/Bootcamp_CodeExamples/blob/main/js_projects/theater.html"> Assignment 6  was javascript practice making a separate <a href="https://github.com/briannaodom2021/Bootcamp_CodeExamples/blob/main/js_projects/js/theater.js">js folder</a>. We took in user inputs for a fake movie showing in order to tell them what the price of their ticket would be. If they saw a matinee it would be $3 cheaper on their ticket. If they were ages 12 to 65 their tickets were orignally $20. Otherwise the person's ticket was $10. These prices are without the discount. 
+<a href="https://github.com/briannaodom2021/Bootcamp_CodeExamples/blob/main/js_projects/theater.html"> Assignment 6</a> was javascript practice making a separate <a href="https://github.com/briannaodom2021/Bootcamp_CodeExamples/blob/main/js_projects/js/theater.js">js folder</a>. We took in user inputs for a fake movie showing in order to tell them what the price of their ticket would be. If they saw a matinee it would be $3 cheaper on their ticket. If they were ages 12 to 65 their tickets were orignally $20. Otherwise the person's ticket was $10. These prices are without the discount. 
 
 My code handled checking if user input was valid i.e. was actually a number for age and if the user typed yes (y) or no (n).
 
@@ -73,7 +73,7 @@ My code handled checking if user input was valid i.e. was actually a number for 
 <div>
 
 <em>Week 3:</em>
-<a href="https://github.com/briannaodom2021/Bootcamp_CodeExamples/blob/main/js_projects/number-guessing-game.html"> Assignment 7 </a> was more javascript practice with a <a href="https://github.com/briannaodom2021/Bootcamp_CodeExamples/blob/main/js_projects/js/number-guessing-game.js"> separate js file </a>making a number guessing game where a prompt asks a user to guess a number I'm thinking of. The user has to choose a number 1-10. If they get it correct, the game will congradulate them and tell them how many tries it took to get the number right. If not, it will say their guess is too high or too low. 
+<a href="https://github.com/briannaodom2021/Bootcamp_CodeExamples/blob/main/js_projects/number-guessing-game.html"> Assignment 7 </a> was more javascript practice with a separate<a href="https://github.com/briannaodom2021/Bootcamp_CodeExamples/blob/main/js_projects/js/number-guessing-game.js"> js file </a>making a number guessing game where a prompt asks a user to guess a number I'm thinking of. The user has to choose a number 1-10. If they get it correct, the game will congradulate them and tell them how many tries it took to get the number right. If not, it will say their guess is too high or too low. 
 
 My code handles also checking if user input was valid i.e. was actually a number.
 
