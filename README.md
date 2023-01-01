@@ -76,7 +76,7 @@ My code handles also checking if user input was valid i.e. was actually a number
 
 <h2>Result for Assignment 7:</h2>
 
-<img src= "https://github.com/briannaodom2021/Bootcamp_CodeExamples/blob/main/js_projects/images/VimeoTheaterAssign6.png"/> 
+<img src= "https://github.com/briannaodom2021/Bootcamp_CodeExamples/blob/main/js_projects/images/number-guessing-game_assign7.png"/> 
 <a href="https://vimeo.com/785078742"> Watch video here</a>
 </div>
 
@@ -89,7 +89,7 @@ Note: only html doc for this assignment.
 
 <h2>Result for Assignment 8:</h2>
 
-<img src= "https://github.com/briannaodom2021/Bootcamp_CodeExamples/blob/main/js_projects/images/VimeoTheaterAssign6.png"/> 
+<img src= "https://github.com/briannaodom2021/Bootcamp_CodeExamples/blob/main/js_projects/images/color-guessing-game_assign8.png"/> 
 <a href="https://vimeo.com/785078742"> Watch video here</a>
 </div>
 
