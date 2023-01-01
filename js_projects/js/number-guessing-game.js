@@ -21,7 +21,7 @@ function runGame() {
                     alert("You did not enter a number. Try again.");
                     return correct;
                 } 
-                else if ((n <1) || (n>100)){
+                else if ((n <1) || (n>10)){
                     alert("You're guess is out of range. Try again.");
                     return correct;
                 } 
