@@ -70,9 +70,9 @@ My code handled checking if user input was valid i.e. was actually a number for 
 </div>
 
 <em>Week 3:</em>
-<a href="https://github.com/briannaodom2021/Bootcamp_CodeExamples/blob/main/js_projects/number-guessing-game.html"> Assignment 7 </a> was more javascript practice making a number guessing game where a prompt asks a user to guess a number I'm thinking of. The user 
+<a href="https://github.com/briannaodom2021/Bootcamp_CodeExamples/blob/main/js_projects/number-guessing-game.html"> Assignment 7 </a> was more javascript practice with a <a href="https://github.com/briannaodom2021/Bootcamp_CodeExamples/blob/main/js_projects/js/number-guessing-game.js"> separate js file </a>making a number guessing game where a prompt asks a user to guess a number I'm thinking of. The user has to choose a number 1-10. If they get it correct, the game will congradulate them and tell them how many tries it took to get the number right. If not, it will say their guess is too high or too low. 
 
-My code handled checking if user input was valid i.e. was actually a number for age and if the user typed yes (y) or no (n).
+My code handles also checking if user input was valid i.e. was actually a number.
 
 <h2>Result for Assignment 7:</h2>
 
@@ -80,5 +80,17 @@ My code handled checking if user input was valid i.e. was actually a number for 
 <a href="https://vimeo.com/785078742"> Watch video here</a>
 </div>
 
+<em>Week 3:</em>
+<a href="https://github.com/briannaodom2021/Bootcamp_CodeExamples/blob/main/js_projects/color-guessing-game.html"> Assignment 8 </a> was another javascript practice which was similar to assignment 7. This instead as a color guessing game. The colors were provided to choose from. If the use chose the right color, they'd be congradulated and told how many tries it took to find the right guess. When they pressed ok, the screen would also change to that found color. If they were wrong, the game would tell them their guess was too high or too low based on where the color fell alphabetically. 
+
+My code handles also checking if user input was valid i.e. was actually a string and if that string had a color that was one of the options given. If not, those errors would be shown. 
+
+Note: only html doc for this assignment. 
+
+<h2>Result for Assignment 8:</h2>
+
+<img src= "https://github.com/briannaodom2021/Bootcamp_CodeExamples/blob/main/js_projects/images/VimeoTheaterAssign6.png"/> 
+<a href="https://vimeo.com/785078742"> Watch video here</a>
+</div>
 
 
