@@ -1,4 +1,4 @@
-const TARGET = Math.random();
+const TARGET = Math.floor(Math.random()*10);
 let guessString = '';
 let guessNumber = 0;
 let numTries = 0;
@@ -6,7 +6,7 @@ let correct = 0;
 
 function runGame() {
     do {
-        guessString = prompt("Please enter a number.", "i.e. 10");
+        guessString = prompt("Please enter a number between 1-10.", "Integers only. Ex. 10");
         numTries +=1;
         if (guessString === null) { //helps cancel button work to end game. if not button is treated as a 0.
             return;

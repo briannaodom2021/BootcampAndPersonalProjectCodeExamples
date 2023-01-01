@@ -59,11 +59,22 @@
 <div>
 
 <em>Week 3:</em>
-<a href="https://github.com/briannaodom2021/Bootcamp_CodeExamples/blob/main/helloworld_javascript/theater.html"> Assignment 6 </a> was javascript practice making a separate js folder. We took in user inputs for a fake movie showing in order to tell them what the price of their ticket would be. If they saw a matinee it would be $3 cheaper on their ticket. If they were ages 12 to 65 their tickets were orignally $20. Otherwise the person's ticket was $10. These prices are without the discount. 
+<a href="https://github.com/briannaodom2021/Bootcamp_CodeExamples/blob/main/js_projects/theater.html"> Assignment 6  was javascript practice making a separate <a href="https://github.com/briannaodom2021/Bootcamp_CodeExamples/blob/main/js_projects/js/theater.js">js folder</a>. We took in user inputs for a fake movie showing in order to tell them what the price of their ticket would be. If they saw a matinee it would be $3 cheaper on their ticket. If they were ages 12 to 65 their tickets were orignally $20. Otherwise the person's ticket was $10. These prices are without the discount. 
 
 My code handled checking if user input was valid i.e. was actually a number for age and if the user typed yes (y) or no (n).
 
 <h2>Result for Assignment 6:</h2>
+
+<img src= "https://github.com/briannaodom2021/Bootcamp_CodeExamples/blob/main/js_projects/images/VimeoTheaterAssign6.png"/> 
+<a href="https://vimeo.com/785078742"> Watch video here</a>
+</div>
+
+<em>Week 3:</em>
+<a href="https://github.com/briannaodom2021/Bootcamp_CodeExamples/blob/main/js_projects/number-guessing-game.html"> Assignment 7 </a> was more javascript practice making a number guessing game where a prompt asks a user to guess a number I'm thinking of. The user 
+
+My code handled checking if user input was valid i.e. was actually a number for age and if the user typed yes (y) or no (n).
+
+<h2>Result for Assignment 7:</h2>
 
 <img src= "https://github.com/briannaodom2021/Bootcamp_CodeExamples/blob/main/js_projects/images/VimeoTheaterAssign6.png"/> 
 <a href="https://vimeo.com/785078742"> Watch video here</a>
