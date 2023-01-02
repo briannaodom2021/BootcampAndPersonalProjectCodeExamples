@@ -106,8 +106,8 @@ Note: only html doc for this assignment.
 
 <h2>Result for Assignment 9:</h2>
 
-<img src= "https://github.com/briannaodom2021/Bootcamp_CodeExamples/blob/main/js_projects/images/color-guessing-game_assign8.png"/> 
-<a href="https://vimeo.com/785490180"> Watch video here</a>
+<img src= "https://github.com/briannaodom2021/Bootcamp_CodeExamples/blob/main/js_projects/images/dice-game_assign9.png"/> 
+<a href="https://vimeo.com/785653632"> Watch video here</a>
 </div>
 
 
