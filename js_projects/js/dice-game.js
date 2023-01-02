@@ -1,7 +1,7 @@
 function rollDice(){
     let goldCoins = 0;
     for (let i = 1; i <= 10; i++) {
-        const roll = Math.ceil(Math.random()*5);
+        const roll = Math.floor(Math.random()*6)+1; //returns a roll from 1 to 6. Can't have a 0 dice.
         alert("The value of your dice roll " + i + " was " + roll);
         if (roll === 1){
             alert("Game over. No more rolls.");
