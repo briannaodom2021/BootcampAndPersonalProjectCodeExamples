@@ -98,5 +98,16 @@ Note: only html doc for this assignment.
 <img src= "https://github.com/briannaodom2021/Bootcamp_CodeExamples/blob/main/js_projects/images/color-guessing-game_assign8.png"/> 
 <a href="https://vimeo.com/785490180"> Watch video here</a>
 </div>
+    <br>
+<div>
+
+<em>Week 4:</em>
+<a href="https://github.com/briannaodom2021/Bootcamp_CodeExamples/blob/main/js_projects/dice-game.html"> Assignment 9 </a> was more javascript practice of setting up a dice game with another <a href="https://github.com/briannaodom2021/Bootcamp_CodeExamples/blob/main/js_projects/js/dice-game.js"> js folder </a>. A player would start and there would be a max of 10 rolls. The game would end early if a player landed on die 1. The game rewarded the player gold coins depending on which side of the die the player landed on. The total would be given at the end of the game.
+
+<h2>Result for Assignment 9:</h2>
+
+<img src= "https://github.com/briannaodom2021/Bootcamp_CodeExamples/blob/main/js_projects/images/color-guessing-game_assign8.png"/> 
+<a href="https://vimeo.com/785490180"> Watch video here</a>
+</div>
 
 
