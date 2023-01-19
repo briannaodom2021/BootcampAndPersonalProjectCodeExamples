@@ -112,4 +112,12 @@ Note: only html doc for this assignment.
 
 <hr></hr>
 
+# Personal Projects 
+
+Currently working on personal projects to enhance my skills which for the time being includes the use of css, html, javascript, and a little jquery. 
+
+The first project is a redo of a coffee shop website. My friend redesigned the site with figma and sent me her design outline with the parameters, colors, and images she wanted to use. Currently still in progress. 
+
+
+
 
