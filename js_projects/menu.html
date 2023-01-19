@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Page</title>
+
+    <style>
+        main {
+            background-color: #ECE5DE;
+        }
+
+        .listOpener{
+            text-align: center;
+            margin-top: 0;
+            position:relative;
+            top: 40px;
+
+        }
+        .hotList, .specialList {
+            padding: 1em;
+            list-style-type: none;
+            display: inline-block; /*aligns 2 lists next to eachter */
+            text-align:left; /* items centered left in list */
+            line-height: 2em; /* for spaces between list items */
+            font-size: large;
+        }
+
+        .specialList {
+            position: relative;
+            left: 60px;
+        }
+
+        .coldList, .croffleList {
+            padding: 1em;
+            list-style-type: none;
+            display: inline-block;
+            text-align:left;
+            line-height: 2em;
+            font-size: large;
+            position:relative;
+            bottom: 80px;
+            left: 40px;
+        }
+
+        div{
+            margin-top: 3em;
+        }
+
+        .topCoffeeList{
+            text-align:center; /*Aligns the text center of the page.*/
+        }
+        .botCoffeeList{
+            text-align:center;
+        }
+    </style>
+</head>
+
+<body>
+    <header id = "header"> </header>
+
+    <main>
+        <p class="listOpener">
+            Below is the sample menu. Please visit our location for a comprehensive list of all our offerings. 
+        </p>
+        
+        <div class="topCoffeeList">
+            <ul class="hotList">
+                <b>HOT</b>
+                <li>Espresso</li>
+                <li>Americano</li>
+                <li>Cappucino</li>
+                <li>Cortado</li>
+            </ul>
+            <ul class="specialList">
+
+                <b>SPECIAL</b>
+                <li>Dulche de Leche Latte</li>
+                <li>Pistachio Latte</li>
+                <li>Zebra Mocha</li>
+                <li>Lavendar White Mocha</li>
+            </ul>
+        </div>
+        <div class="botCoffeeList">
+            <ul class="coldList">
+                <b>COLD</b>
+                <li>Cold Brew</li>
+                <li>Coconut Americano</li>
+                <li>Mojito</li>
+                <li>Kona Mocha Frap</li>
+            </ul>
+            <ul class="croffleList">
+                <b>CROFFLE</b>
+                <li>Strawberry Cream Cheese</li>
+                <li>Ferrero</li>
+                <li>Tiramisu</li>
+                <li>Original</li>
+            </ul>
+        </div>
+    </main>
+    
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <script> //google jquery cdn. go to site and choose minimize from first jquery version on page for info above and copy.
+        $(function(){
+            $("#header").load("header.html"); //jquery to copy header on each page
+        });
+    </script>
+</body>
+
+</html>

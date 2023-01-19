@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header Page</title>
+    <link rel="stylesheet" href=
+    "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+    <style>
+        #navBar a:hover { /*adds hover color over letters*/
+            background-color: rgb(221, 221, 221);
+        }
+        #navBar li.active a { /*adds underline to current page in nav menu */
+            text-decoration:underline;
+        }
+
+        ul {
+            list-style-type: none; /*hides list dots */
+        }
+    
+        .coffList {
+            float: left; /*list order is menu about order. If i did right, order would be reversed */
+            font-family: Arial, Helvetica, sans-serif;
+            /*padding: 10px;*/
+            font-size: xx-large;
+            margin-top: 4%;
+        }
+    
+        .coffList a {
+            text-align: center;
+            padding: 0 20px;
+            color: black;
+            text-decoration: none; /*gets rid of the underline */
+        }
+            /* #circleBorder {
+            width: 80px;
+            height: 80px;
+            padding: 5px;
+            border-radius: 50%;
+            background-color: black;
+        } */
+        .fa {
+    
+            margin-top: 12%;
+            padding: 22px;
+            font-size: 16px;
+            width: 18px; /* affects where menu starts above pic. increasing width of icon, moves nav bar left and decreases */
+            text-decoration: none;  
+        }
+    
+        .fa-instagram {
+            color: black;
+        }
+    
+        .fa-compass{
+            color: black;
+        }
+    
+        .fa-envelope-o{
+            color: black;
+        }
+        .flex-container{ 
+        width: 100%;
+        min-height: 100px;
+        margin: 0 auto; 
+        display: -webkit-flex; /*for chrome*/
+        display: flex;
+        flex-direction: row; /*default is row. can do row-reverse, column, and column-reverse as well.*/
+        }
+        .flex-container #logo{ 
+            background-color: #c8b090;
+            padding: 20px; /*increase or decrease height of header*/
+            -ms-flex: 1; 
+            flex: 1;
+        }
+        .flex-container #navBar{ 
+            background-color: #c8b090;
+        }
+        .flex-container #icons{ 
+            background-color: #c8b090;
+        }
+
+        img {  
+            max-width:100%; /* makes image scale (responsive) */
+            height: auto;
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="flex-container">
+
+    <div id="logo">
+        <img id= "coffeeLogo" src="images/coffeeLogo.jpg" alt="diamond coffee logo"></img>
+    </div>
+
+    <div id="navBar"> 
+        <ul >
+            <li class="coffList"><a href="coffee_site.html"><b> Home</b></a></li>
+            <li class="coffList"><a href="menu.html"><b> Menu</b></a></li>
+            <li class="coffList"><a href="About"><b> About</b></a></li>
+            <li class="coffList"><a href="contact.html"><b>Contact</b></a></li>
+        </ul>
+    </div>
+    
+    <div id= "icons">
+        <a href="https://www.instagram.com/diamondcoffeesf/?hl=en"><i class="fa fa-instagram"></i></a>
+        <a href="#"><i class="fa fa-compass"></i></a>
+        <a href="#"><i class="fa fa-envelope-o"></i></a> 
+    </div>
+</div> 
+
+<script src="https://code.jquery.com/jquery-3.6.3.min.js" type="text/javascript"></script>
+<script>
+    $(function() { //identifies current page to underline in nav menu
+        // this will get the full URL at the address bar
+        var url = window.location.href;
+
+        // passes on every "a" tag
+        $("#navBar a").each(function() {
+            // checks if its the same on the address bar
+            if (url == (this.href)) {
+                $(this).closest("li").addClass("active");
+                //for making parent of submenu active
+               $(this).closest("li").parent().parent().addClass("active");
+            }
+        });
+    });        
+</script>
+</body>
+</html>
+
+
+

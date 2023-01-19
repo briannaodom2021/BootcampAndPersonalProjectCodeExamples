@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Coffee Website Design</title>
+<style>
+
+    footer {  
+        margin-top: -1.7em;
+        padding: 2em;
+        text-align: center;
+        background-color: #ECE5DE;
+    }
+    
+</style>
+</head>
+
+<body>
+    <header id = "header"> </header>
+
+    <main>
+        <img id = "pourCoffeeImg" src="images/coffee.jpg" alt="coffee pour image for main page of website."></img>
+    </main>
+
+    <footer>
+        <p>
+            <h1><b>Check out our locations:</b></h1>
+            <b>Inner Richmond</b><br>
+            1014 Clement St.<br>
+            Hours: 9am-5pm everyday<br><br>
+            <b>Sunset</b><br>
+            2575 Judah St. <br>
+            San Francisco, CA 94122<br>
+            Hours: 8:30am-4pm everyday 
+        </p>
+    
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <script> //google jquery cdn. go to site and choose minimize from first jquery version on page for info above and copy.
+        $(function(){
+            $("#header").load("header.html"); //jquery to copy header on each page
+        });
+    </script>
+
+</body>
+</html>
