@@ -120,6 +120,6 @@ The first project is a redo of a coffee shop website. My friend redesigned the s
 
 Below is the example of the home page. A video link will be added soon to show the rest of the site and functionality. 
 
-<img src= "images/coffeeSiteHomePage.png" alt="coffee homepage image"></img>
+<img src= "js_projects/images/coffeeSiteHomePage.png" alt="coffee homepage image"></img>
 
 
