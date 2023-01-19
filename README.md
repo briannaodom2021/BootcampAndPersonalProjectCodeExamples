@@ -118,6 +118,8 @@ Currently working on personal projects to enhance my skills which for the time b
 
 The first project is a redo of a coffee shop website. My friend redesigned the site with figma and sent me her design outline with the parameters, colors, and images she wanted to use. Currently still in progress. 
 
+Below is the example of the home page. A video link will be added soon to show the rest of the site and functionality. 
 
+<img src= "images/coffeeSiteHomePage.png" alt="coffee homepage image"></img>
 
 
