@@ -52,7 +52,7 @@
 
 <h2>Result for Assignment 5:</h2>
 
-<img src= "https://github.com/briannaodom2021/Bootcamp_CodeExamples/blob/main/workshop2/images/assignment5.png"/> 
+<img src= "https://github.com/briannaodom2021/Bootcamp_CodeExamples/blob/main/workshop2/images/assignment5.png" height="600" width="500"/> 
 
 </div>
     <br>
