@@ -21,7 +21,7 @@
 
 <h2>Result for Assignment 2:</h2>
 
-<img src= "https://github.com/briannaodom2021/Bootcamp_CodeExamples/blob/main/example-folder/images/assignment2.png"/> 
+<img src= "https://github.com/briannaodom2021/Bootcamp_CodeExamples/blob/main/example-folder/images/assignment2.png" height="700" width="700"/> 
 
 </div>
     <br>
