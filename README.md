@@ -41,7 +41,7 @@
 
 <h2>Result for Assignment 4:</h2>
 
-<img src= "https://github.com/briannaodom2021/Bootcamp_CodeExamples/blob/main/css-example/images/assignment4.png" height="400" width="400"/> 
+<img src= "https://github.com/briannaodom2021/Bootcamp_CodeExamples/blob/main/css-example/images/assignment4.png" height="500" width="700"/> 
 
 </div>
     <br>
