@@ -10,7 +10,7 @@
 
 <h2>Result for Assignment 1:</h2>
 
-<img src= "https://github.com/briannaodom2021/Bootcamp_CodeExamples/blob/main/profile/images/assignment1_profile.png" height="300" width="400"/> 
+<img src= "https://github.com/briannaodom2021/Bootcamp_CodeExamples/blob/main/profile/images/assignment1_profile.png" height="300" width="700"/> 
 
 </div>
     <br>
