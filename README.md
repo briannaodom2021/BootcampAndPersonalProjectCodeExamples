@@ -31,7 +31,7 @@
 
 <h2>Result for Assignment 3:</h2>
 
-<img src= "https://github.com/briannaodom2021/Bootcamp_CodeExamples/blob/main/css-practice/images/assignment3.png" height="300" width="300"/> 
+<img src= "https://github.com/briannaodom2021/Bootcamp_CodeExamples/blob/main/css-practice/images/assignment3.png" height="400" width="400"/> 
 
 </div>
     <br>
