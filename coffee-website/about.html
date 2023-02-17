@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Page</title>
+    <style>
+        .flex-container2 {
+            display: flex;
+            flex-direction: row;
+            background-color: #ECE5DE;
+            padding: 5%;
+        }
+
+        .flex-container2 #aboutDiamondText {
+            margin-top: -5%;
+            padding: 10%;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 19px;
+        }
+    </style>
+</head>
+<body>
+    <header id="header"></header>
+
+    <div class = "flex-container2">
+        <div id="aboutDiamondImg">
+            <img src= "images/coffeeAboutPagePic.jpg" alt="coffee image for about page"></img>
+        </div>
+
+        <div id= "aboutDiamondText">
+            <h2>Hi! We're Diamond Coffee N' Pastry.</h2>
+            Located in the heart of San Francisco, our specialty coffee shop offers a unique and 
+            elevated coffee experience. Our menu features a selection of carefully curated, expertly crafted drinks made with only the finest, 
+            ethically sourced beans. From our signature lattes to our cold brews and pour-overs, our menu has something to please every palate. 
+            We also serve a variety of delicious pastries, including our famous croffles - a cross between a croissant and a waffle - made fresh daily.
+            <br><br>Come and enjoy a cozy atmosphere and friendly service while you sip on your favorite drink and indulge in a tasty treat We look forward to seeing you!
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <script> //google jquery cdn. go to site and choose minimize from first jquery version on page for info above and copy.
+        $(function(){
+            $("#header").load("header.html"); //jquery to copy header on each page
+        });
+    </script>
+</body>
+</html>

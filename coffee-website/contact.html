@@ -11,37 +11,42 @@
         }
         .contact {
             font-family:'Times New Roman', Times, serif;
-            margin-left: 20px;
-            margin-top: 30px;
+            margin-left: 30px;
+            font-size: x-large;
         }
 
         .commentary {
-            margin-left:20px;
+            margin-left: 30px;
+            font-size: 15px;
         }
 
         #userInfoForm{
-            margin-left:20px;
+            margin-left: 30px;
             line-height: 2em; /*incrases space between inputs*/
         }
 
         #name {
-          width: 40%; /*width for text boxes*/
-          border-radius: 10px; /*makes boxes rounded*/
-          font-weight: bold; /*bold with internal style sheet*/
+            background-color: #ECE5DE;
+            width: 110%; /*width for text boxes*/
+            border-radius: 10px; /*makes boxes rounded*/
+            font-weight: bold; /*bold with internal style sheet*/
         }
 
         #email {
-            width: 40%;
+            background-color: #ECE5DE;
+            width: 110%;
             border-radius: 10px;
         }
 
         #phoneNumber {
-            width: 40%;
+            background-color: #ECE5DE;
+            width: 110%;
             border-radius: 10px;    
         }
 
         #comment {
-            width: 40%; /*inceases width of boxes*/
+            background-color: #ECE5DE;
+            width: 110%; /*inceases width of boxes*/
             padding: 20px 2px 50px; /*1st number- inceases height of boxes but also moves curson start further down, 2nd- width, 3rd- height */
             border-radius: 10px; /*for r ounded borders on boxes*/
             margin-bottom: 2em;
@@ -50,35 +55,98 @@
         #submit{
             background-color: #5C4033; /*inceases width of boxes*/
             color: white;  
-            margin-left: 10%;
-            width: 20%;
+            margin-left: 35%;
+            width: 40%;
+        }
+
+        .flex-container3{
+            display: flex;
+            flex-direction: row;
+            background-color: #ECE5DE;
+            margin-left: 40px;
+        }
+
+        .flex-container3 #contactPageForm{
+            margin-left: 30px;
+            margin-top: 10px;
+        }
+
+        .flex-container3 #contactPagePic{
+            max-width: 33%;
+            max-height: 15%;
+            position: relative;
+            margin-left: 340px;
+            margin-top: 25px; 
+        }
+
+        #contactPhoto{
+            width: 80%; /*to control image size image needs to be set to 100%(full-size)*/
+            height: 85%;
+            border-radius: 20px; /*makes oval if % but rounds edges around photo if px*/
+        }
+
+        .popupBox {
+            width: 400px;
+            background: #ECE5DE;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%); /*so popup is at the center of the page*/
+            text-align: center;
+            padding: 0 30px 30px; /*space from the inside. top right bottom left*/
+            color: black;
+        }
+
+        #popupButton{
+            width: 100%;
+            margin-top: 50px;
+            padding: 10px 0;
+            background: darkslategrey;
+            color: white;
+            border: 0;
+            outline: none;
+            font-size: 18px;
+            border-radius: 4px;
+            cursor: pointer;
+            box-shadow: 0 5px 5px rgba(0,0,0,0.2);
         }
         
     </style>
-    
 </head>
 
 <body>
     <header id="header"></header>
 
-    <h2 class="contact"><b>Contact</b></h2>
+    <div class="flex-container3">
+        <div id="contactPageForm">
+            <h2 class="contact"><b>Contact</b></h2>
 
-    <p class="commentary">Have any questions? Please reach out. We'd love to hear from you!</p>
-    
-    <div id="form">
-        <form action="php/userInfo.php" id="userInfoForm">
-            <label for="name" ><b>Name:</b></label><br>
-            <input type="text" id="name" name="name"><br>
-            <label for="email"><b>Email:</b></label><br>
-            <input type="email" id="email" name="email"><br>
-            <label for="phoneNumber"><b>Name:</b></label><br>
-            <input type="tel" id="phoneNumber" name="phoneNumber"><br>
-            <label for="comment"><b>Your Comment:</b></label><br>
-            <input type="text" id="comment" name="comment"><br>
-            <input type="submit" value="Submit" id="submit">
-        </form>
+            <p class="commentary">Have any questions? Please reach out. We'd love to hear from you!</p>
+            
+            <form action="php/userInfo.php" id="userInfoForm" method="post">
+                <label for="name" ><b>Name:</b></label><br>
+                <input type="text" id="name" name="name"><br>
+                <label for="email"><b>Email:</b></label><br>
+                <input type="email" id="email" name="email"><br>
+                <label for="phoneNumber"><b>Phone Number:</b></label><br>
+                <input type="tel" id="phoneNumber" name="phoneNumber"><br>
+                <label for="comment"><b>Your Comment:</b></label><br>
+                <input type="text" id="comment" name="comment"><br>
+                <button type="submit" value="Submit" id="submit">Submit</button>
+                
+            </form>
+        </div>
+
+        <div id="contactPagePic">
+            <img src="images/coffeeContactPhoto.jpg" id="contactPhoto" alt="coffee photo for contact page"></img>
+        </div>
     </div>
 
+    <div class="popupBox">
+        <h2>Thank you for your submission!</h2>
+        <p>We will be contacting you soon.</p>
+        <button type="button" id="popupButton">Back To Contact Page</button>
+    </div>
     <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
     <script> //google jquery cdn. go to site and choose minimize from first jquery version on page for info above and copy.
         $(function(){
