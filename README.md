@@ -123,8 +123,8 @@ Below is the example of the home page. A video link will be added soon to show t
 Note: I am using internal style sheets to quickly go through phase 1 of coding. 
 
 <img src= "coffee-website/images/coffeeSiteHomePage.png" alt="coffee homepage image"></img>
-<a href="https://github.com/briannaodom2021/Bootcamp_CodeExamples/tree/main/coffee-website">Link to coffee-website code</a>
-<a href="vimeo.com/user115368739/">Link to coffee-website example video</a>
+<a href="https://github.com/briannaodom2021/Bootcamp_CodeExamples/tree/main/coffee-website">Link to coffee-website code</a><br>
+<a href="https://vimeo.com/manage/videos/800009882">Link to coffee-website example video</a>
 
 
 
