@@ -95,6 +95,11 @@
             text-align: center;
             padding: 0 30px 30px; /*space from the inside. top right bottom left*/
             color: black;
+            visibility: hidden;
+        }
+
+        .open-popup{ 
+            visibility: visible;
         }
 
         #popupButton{
@@ -123,7 +128,7 @@
 
             <p class="commentary">Have any questions? Please reach out. We'd love to hear from you!</p>
             
-            <form action="php/userInfo.php" id="userInfoForm" method="post">
+            <form id="userInfoForm">
                 <label for="name" ><b>Name:</b></label><br>
                 <input type="text" id="name" name="name"><br>
                 <label for="email"><b>Email:</b></label><br>
@@ -132,26 +137,35 @@
                 <input type="tel" id="phoneNumber" name="phoneNumber"><br>
                 <label for="comment"><b>Your Comment:</b></label><br>
                 <input type="text" id="comment" name="comment"><br>
-                <button type="submit" value="Submit" id="submit">Submit</button>
-                
+                <button type="submit" value="Submit" id="submit" onclick="openPopup()">Submit</button>      
             </form>
         </div>
 
         <div id="contactPagePic">
             <img src="images/coffeeContactPhoto.jpg" id="contactPhoto" alt="coffee photo for contact page"></img>
         </div>
+
+        <div class="popupBox" id="popupBox">
+            <h2>Thank you for your submission!</h2>
+            <p>We will be contacting you soon.</p>
+            <button type="button" id="popupButton" onclick="closePopup">Back To Contact Page</button>
+        </div>
     </div>
 
-    <div class="popupBox">
-        <h2>Thank you for your submission!</h2>
-        <p>We will be contacting you soon.</p>
-        <button type="button" id="popupButton">Back To Contact Page</button>
-    </div>
     <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
     <script> //google jquery cdn. go to site and choose minimize from first jquery version on page for info above and copy.
         $(function(){
             $("#header").load("header.html"); //jquery to copy header on each page
         });
+    </script>
+    <script>
+        let popup = document.getElementById("popupBox");
+        function openPopup(){
+            popup.classList.add('open-popup');
+        }
+        function closePopup(){
+            popup.classList.remove('open-popup');
+        }
     </script>
     
 </body>
