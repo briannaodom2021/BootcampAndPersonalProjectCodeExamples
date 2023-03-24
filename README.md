@@ -121,6 +121,7 @@ The first project is a redo of a coffee shop website. My friend redesigned the s
 Below is the example of the home page. A video link will be added soon to show the rest of the site and functionality. 
 
 Note: I am using internal style sheets to quickly go through phase 1 of coding. 
+Also this is not my website. I do not own it. It was a redesign of a running site. Will not host.
 
 <img src= "coffee-website/images/coffeeSiteHomePage.png" alt="coffee homepage image"></img>
 <a href="https://github.com/briannaodom2021/Bootcamp_CodeExamples/tree/main/coffee-website">Link to coffee-website code</a><br>
